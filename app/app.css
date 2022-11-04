@@ -8,3 +8,14 @@
 Button.-primary {
   font-size: 18;
 }
+
+.myClassImage {
+  margin-top: 50px;
+  height: 150px;
+  width: 150px;
+}
+
+.myClassTextfield {
+  height: 50px;
+  text-align: center;
+}

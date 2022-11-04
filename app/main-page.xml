@@ -1,8 +1,27 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
-    <ActionBar title="My App" icon="" />
-    <StackLayout class="p-4">
+    <ActionBar title="Cibertec App" icon="" />
+    <!-- <StackLayout class="p-4">
         <Label text="Please tap me" class="text-3xl text-center" />
-        <Button text="TAP" tap="{{ onTap }}" class="-primary" />
+        <Button text="TAP" tap="{{ onTap }}" class="-primary -rounded-lg" />
         <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" />
+        <TextField hint="Enter text" color="orangered" backgroundColor="lightyellow" />
+        <Image class="myClassImage" src="">
+    </StackLayout> -->
+
+    <StackLayout>
+
+        <Image src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"  class="myClassImage" />
+
+        <TextField hint="Ingrese su correo" class="myClassTextfield" />
+
+        <TextField hint="Ingrese su clave" class="myClassTextfield" />
+
+        <Button text="Ingresar" style="margin-top:100px;height:100px;" class="-primary -rounded-lg" />
+
+        <Button text="Registrar" style="margin-top:50px;height:100px;background-color: green;" class="-primary -rounded-lg" />
+
     </StackLayout>
+
+
+
 </Page>
